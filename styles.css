@@ -166,9 +166,8 @@ body{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     font-size: 15px;
     background-color: rgb(16, 16, 16);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    text-align: center;
     border: solid rgb(0, 0, 0);
     padding: 20px;
     overflow: auto;
@@ -177,9 +176,9 @@ body{
 }
 
 #aboutUs{
+    display: block;
 border-radius: 5px ;
-width: 32%;
-height: auto;
+
 background-color: rgb(203, 203, 203);
 text-align: center;
 box-shadow: -5px 5px 10px black;
@@ -187,6 +186,7 @@ padding: 20px;
 opacity: 0;
 transition: opacity 0.5s;
 overflow: auto;
+margin-bottom: 10px;
 
 
 }
@@ -198,11 +198,9 @@ overflow: auto;
 }
 
 #services{
-
+    display: block;
 border-radius: 5px ;
 text-align: center;
-width: 30%;
-height: auto;
 background-color: rgb(48, 48, 48);
 box-shadow: -5px 5px 20px black;
 padding: 20px;
@@ -211,7 +209,7 @@ color: white;
 opacity: 0;
 transition: opacity 0.5s;
 transition-delay: 0.5s;
-
+margin-bottom: 10px;
 
 }
 #services.show{
@@ -222,11 +220,9 @@ transition-delay: 0.5s;
 }
 
 #contact{
-
+   display: block;
 border-radius: 5px ;
 text-align: center;
-width: 32%;
-height: auto;
 background-color: rgb(125, 125, 125);
 box-shadow: -5px 5px 20px black;
 padding: 20px;
@@ -304,7 +300,6 @@ color: white;
     opacity: 0;
     
 }
-
 
 .bottomMenu  i{
     margin-top: 50px;
