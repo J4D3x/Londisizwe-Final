@@ -98,10 +98,10 @@ p{
     background-color:  hsla(39, 100%, 50%, 0.578);
 }
 .backDrop{
-            background-image: linear-gradient( rgba(0, 0, 0, 0.823),rgba(0, 0, 0, 0.586)),url(2183383.png) ;
+            background-image: linear-gradient( rgba(0, 0, 0, 0.823),rgba(0, 0, 0, 0.586)),url(artyom-korshunov-NWByxwVN-J0-unsplash.jpg) ;
             background-size: 100%;
-            background-repeat: repeat;
-            background-position: 0px  ;
+            background-repeat: no-repeat;
+            background-position: 0px ;
             background-attachment: fixed;
             display: block;
             margin: 0;
@@ -205,16 +205,6 @@ p{
     text-align: left;
    
 }
-
-
-
-
-
-
-
-
-
-
 
 
 /* footer */
