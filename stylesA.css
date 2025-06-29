@@ -224,8 +224,7 @@ main{
 }
 
 .animation1{
-    animation-name: slideLeftRight;
-    animation-duration: 1s;
+ 
     font-size: 70px; 
     color: hsla(0, 0%, 100%, 0.874); 
     margin-top: 20px; 
@@ -247,12 +246,12 @@ main{
 
 @keyframes slideLeftRight{
 
-    from{transform:  translateX(+100px);}
+    from{transform:  translateX(+10px);}
 
 }
 @keyframes slideLeftRight2{
 
-    from{transform:  translateY(-200px);}
+    from{transform:  translateY(-50px);}
 }
 
 /* footer */
